@@ -34,14 +34,7 @@ Uses WordPress Best Practices
 - Upload the Authorlist directory to the /wp-content/plugins/ directory
 - Activate the plugin in the Plugin’s dashboard
 
-== Frequently Asked Questions ==
-
 = How do I customize page? =
 
 Yes, you can. To override plugin template files in your theme (or better yet, child theme) simply make a folder named 'author-list' within your theme directory, and then create the template file named 'author-bio.php' and with other plugin too you can overwrite it too by using ' author_list_get_template_part ' filter.
 
-
-== Changelog ==
-
-= 1.0 =
-* Initial Release
