@@ -1,11 +1,5 @@
 # AuthorList
-=== Author List ===
-Contributors: Roopesh
-Tags: author list, tempalte , widget, Roopesh
-Requires at least: 3.5
-Tested up to: 4.9.1
-Stable tag: 1.0
-License: GPLv2 or later
+
 
 == Description ==
 
