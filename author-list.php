@@ -4,7 +4,7 @@
  * Description: A plugin to show author details as per their role.
  * Version: 1.0.0
  * Author: Roopesh
- * Tested up to: 4.8.3
+ * Tested up to: 4.9.1
  *
  * Text Domain: authorlist
  *
