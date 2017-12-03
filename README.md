@@ -29,9 +29,6 @@ Uses WordPress Best Practices
 
 == Installation ==
 
-Different ways of installation process
-
-
 - Download zip
 - Extract the Authorlist directory to your computer
 - Upload the Authorlist directory to the /wp-content/plugins/ directory
