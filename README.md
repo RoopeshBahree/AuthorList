@@ -3,11 +3,11 @@
 
 == Description ==
 
-Create a Page for users with their roles. With this plugin, you can create different pages as per its user role. This plugin is applicable to any of the post type you have on your WordPress site. It has an inbuilt feature to manage the pagination, sorting options with the fields in both the way ASC or DESC. You can also assign multiple post type with a comma separator. So there is no limitation with the Authorlist plugin. 
+Create a Page for users with their roles. With this plugin, you can create different pages as per its user role. This plugin is applicable to any of the post type you have on your WordPress site. It has an inbuilt feature to manage the pagination, sorting options in both the way ASC or DESC. You can also assign multiple post type with a comma separator. So there is no limitation with the Authorlist plugin. 
 
 How to use this plugin
  After activation, you need to create one page and use this given short code on that page. 
-[author-list role=administrator post_type="post,page" number=1 orderby=email order=ASC]
+[author-list role=administrator post_type=post,page number=1 orderby=email order=ASC]
 
 Explanation of this shortcode. 
 
