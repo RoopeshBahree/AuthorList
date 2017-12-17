@@ -33,7 +33,7 @@ add_action('admin_notices','author_list_admin_notices',99);
 
 function author_list_admin_notices(){
 	if ( 'y' == get_option( 'author_list_activate_msg' ) ) {
-		echo '<div class="updated"><p>'.  __( 'Author - List plugin is activated successfully. You can view the author list from Add Page page or add author list widget in backend.', 'author_list' ) . '</p></div>';
+		echo '<div class="updated"><p>'. wp_kses_post( __( 'Author - List plugin is activated successfully. You can view the author list from Add New Page by adding the shortcode <code> [author-list role=administrator post_type=post,page number=1 orderby=email order=ASC] </code>  from backend.', 'author_list' ) ) . '</p></div>';
 		delete_option( 'author_list_activate_msg' );
 	}
 }
